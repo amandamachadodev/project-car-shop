@@ -11,9 +11,7 @@ describe('Car Controller', () => {
   const carModel = new CarModel()
   const carService = new CarService(carModel);
   const carController = new CarController(carService);
-  // Nosso req vai ser um objeto com cast de Request, pois o controller só aceita um Request como primeiro parâmetro
   const req = {} as Request;
-  // Mesma coisa com o segundo parâmetro
   const res = {} as Response;
 
   before(() => {
