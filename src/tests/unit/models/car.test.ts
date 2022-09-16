@@ -25,8 +25,8 @@ describe('Car Model', () => {
 
 	describe('creating a car', () => {
 		it('successfully created', async () => {
-			const carFrame = await carModel.create(carMock);
-			expect(carFrame).to.be.deep.equal(carMockWithId);
+			const carCreate = await carModel.create(carMock);
+			expect(carCreate).to.be.deep.equal(carMockWithId);
 		});
 	});
 

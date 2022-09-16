@@ -40,10 +40,15 @@ const carMockForChange: ICar = {
     doorsQty: 2
   };
 
+  const carMockInvalid: any = {
+	model: "Scort xr3 conversível",
+}
+
 
 export {
 	carMock,
 	carMockWithId,
     carMockForChange,
-    carMockForChangeWithId
+    carMockForChangeWithId,
+    carMockInvalid
 };
